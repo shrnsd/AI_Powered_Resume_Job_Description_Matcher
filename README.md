@@ -1,2 +1,3 @@
-# AI_Powered_Resume_Job_Description_Matcher
-An AI-powered NLP tool that compares resumes against job descriptions to calculate a compatibility score and identify missing technical skills. Built with Python, Streamlit, and Scikit-learn.
+pip install streamlit scikit-learn spacy PyPDF2 python-docx
+python -m spacy download en_core_web_sm
+streamlit run fileName.py
